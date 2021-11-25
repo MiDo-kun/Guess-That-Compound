@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Guess That Compound</title>
+   <link rel="stylesheet" href="style.css">
+   <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="shortcut icon" href="/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+   <div class="phone">
+      <!-- Main Menu -->
+      <div class="screen screen--menu screen--visible center">
+         <h1 class="screen__title">Guess That Compound!</h1>
+         <p class="screen__subtitle">Can you guess all the compounds?</p>
+         <div class="buttons buttons--menu center">
+            <button class="button button--yellow button--start">Start Now!</button>
+            <button class="button button--red button--learn">Learn</button>
+         </div>
+      </div>
+
+      <!-- Learn Section -->
+      <div class="screen screen--learn screen--hidden center">
+         <div class="button button--yellow center button--back back--screenMenu">←</div>
+         <h1 class="screen-title screen-title--learn">
+            Learn something <br> <span class="highlight--learn">TODAY!</span>
+         </h1>
+         <div class="topic-scroll">
+            <div class="topics">
+            </div>
+         </div>
+      </div>
+
+      <!-- Select Your Compounds -->
+      <div class="screen screen--select screen--hidden center">
+         <div class="button button--yellow center button--back back--screenMenu">←</div>
+         <h1 class="screen__title">Select Your COMPOUNDS!</h1>
+         <div class="buttons buttons--select center">
+            <div class="button button--yellow button--choice button--ionic">
+               <p class="button__title">Ionic Compounds</p>
+               <p class="button__subtitle"></p>
+            </div>
+            <div class="button button--yellow button--choice button--covalent">
+               <p class="button__title button__title--covalent">Covalent Compounds</p>
+               <p class="button__subtitle"></p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Quiz Template-->
+      <div class="screen screen--quiz screen--hidden center">
+         <div class="button button--yellow center button--back back--screenCategory">←</div>
+         <p class="quiz__timer">15</p>
+         <h1 class="quiz__compound">Na₂CO₃</h1>
+         <div class="buttons buttons__quiz">
+            <button class="button button--yellow button--option">Sodium Hipochlorite</button>
+            <button class="button button--yellow button--option">Sodium Hipochlorite</button>
+            <button class="button button--yellow button--option">Sodium Hipochlorite</button>
+            <button class="button button--yellow button--option">Sodium Hipochlorite</button>
+         </div>
+      </div>
+
+      <!-- Popups Template -->
+      <!-- Timeup -->
+      <div class="screen screen--popup screen--timeup screen--hidden center">
+         <div class="popup popup--timeup">
+            <p class="popup__title">Bummer!</p>
+            <p class="popup__message">You ran out of time.</p>
+            <p class="popup__next">Next</p>
+         </div>
+      </div>
+
+      <!-- Correct -->
+      <div class="screen screen--popup screen--correct screen--hidden center">
+         <div class="popup popup--correct">
+            <p class="popup__title">Correct!</p>
+            <p class="popup__message compound__information">Compoud information here...</p>
+            <p class="popup__next">Next</p>
+         </div>
+      </div>
+
+      <!-- Wrong -->
+      <div class="screen screen--popup screen--wrong screen--hidden center">
+         <div class="popup popup--wrong">
+            <p class="popup__title">Wrong!</p>
+            <p class="popup__message">Better luck next time...</p>
+            <p class="popup__next">Next</p>
+         </div>
+      </div>
+   </div>
+
+   <script type="module" src="./scripts/script.js"></script>
+</body>
+
+</html>
