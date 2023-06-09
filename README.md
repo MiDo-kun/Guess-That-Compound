@@ -1,7 +1,5 @@
 # Guess That Compound
 
-## Project Overview
-
 Guess That Compound is a fun and educational web application that challenges players to guess the name of a displayed compound within a short amount of time. The application is designed to help users expand their knowledge in the field of science, specifically in the area of chemistry.
 
 The game is simple: the player is presented with a compound name and a set of multiple-choice answers. The player must select the correct answer within a given time limit to score points. The game can be played in different categories, such as selecting covalent and ionic compounds, with each mode presenting compounds of varying complexity.
@@ -9,6 +7,8 @@ The game is simple: the player is presented with a compound name and a set of mu
 In addition to the game, the application includes a learning section where users can explore different concepts in science, such as chemical bonding, molecular structure, and nomenclature. This section provides users with a deeper understanding of compounds and their properties and helps them to expand their knowledge in the field.
 
 Overall, Guess That Compound is a great way to learn and have fun at the same time. It is suitable for students, educators, and anyone who wants to learn more about compounds and their properties.
+
+![Preview](https://lh3.googleusercontent.com/nvz6Xt_XIAtqbD1QwtjpKvpXDPrvYF8lU7mthDoYXkXCZNGSnPjaXrxG2iObg7YVPtBTKi_si8bC-1AdnP7gsjWto7bZhLUKAW-9MnpDgYraKmPRPeAJRkcdD_B9yLxZ29av8apNsHDxHP_MHSDpGjfiN1EjyeNWNOBf0Q4oV_4dJOzRg01fu8UdLqzqf3LhtbERiL35LY-tUA-ETYSgthyKxGZ9ZvBYhmdYT6kfjngO_pIXktdwd9pm1z_rLhhckH7sWloWDIWYbGkJ6ich__6W8aYNzZUAHyYKw0SPUL3QDrHRsva4UNCnne9YdlhUSG-OpAb0M5RBQcYoYq4nm3m4Hktwb4jxmf0wpBK9TaNG95CdqNmv_ZgOmGniviue_JxGIRtA4Z2IZeBcD6ENbYdEv6N4Q9n-IouV7A6siAkeDIbxacXxoiYS_SMwnnjWqvY6Hxl0IpHSloFWIs_bK4pDGj_txtnsfPzLifYR_BlOZiijIT5cxi3OdQdJUrYgtRukWJzjnB-WRagbESbp8fX0SsYYClCHvRDS_qkXo8Al12xRbeOWj3i6URrDsmpFaaRkBOeweTbO76nRb5aICQ6gdsskncTBIsOBF4bxHO2z_cOmbb-zzXDpWTO0NNDAdHrrLwsypjbhjmR19pC6fDtUs94oLj6XbiUb7aNxfMlGhOhLWlBf0TqN3tvb5UaMUsjHtZvSvPjLB3kzRmBjiWvtVAmyT-sAhgIYvoByNly4TH72CHlPBk47nYyWI2rHcXxLVs2vmkz5iYcyYqYgbtLSy1mpNn4fyqaBc2z_OEbmD0AwCIPMpSKTaV_UD01iojs3lr7j6Vb3yK3NSACtMqCfiGKpdk9FRwxP3YK8fKDJN74oaYUpbjBxAQRtNPznsV0ATssQMxhGU7-gOBuUa1qyglzdpujadUjT0pcdUq7iU4X7RLv_Ap_FTojTTvDzM4NnJavzBgLlbO-6ieu7QQ=w1006-h447-s-no?authuser=0)
 
 You can view the live website [here](https://guess-that-compound.web.app/).
 
